@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MedicApp</string>
+    <string name="SkipTitle">Пропустить</string>
+    <string name="screen1">Анализы</string>
+    <string name="screen2">Уведомления</string>
+    <string name="screen3">Мониторинг</string>
+    <string name="screenDesc1">Экспресс сбор и получение проб</string>
+    <string name="screenDesc2">Вы быстро узнаете о результатах</string>
+    <string name="screenDesc3">Наши врачи всегда наблюдают за вашими показателями здоровья</string>
+</resources>

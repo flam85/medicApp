@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:flow_horizontalAlign="center"
+    tools:context=".ViewPagerAdapter">
+
+
+    <TextView
+        android:id="@+id/sliderTitle1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="80dp"
+        android:textSize="20dp"
+        android:fontFamily="@font/lato"
+        android:textColor="@color/screenTitle"
+        android:text="@string/screen1" />
+
+    <TextView
+        android:id="@+id/sliderTitle2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/lato"
+        android:textSize="14sp"
+        android:textColor="@color/screenDesc"
+        android:text="@string/screenDesc1" />
+
+    <ImageView
+        android:id="@+id/sliderImage1"
+        android:layout_width="58dp"
+        android:layout_height="14dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/circles1"/>
+
+
+
+    <ImageView
+        android:id="@+id/sliderImage2"
+        android:layout_width="205dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        app:srcCompat="@drawable/img_3" />
+
+
+</LinearLayout>
